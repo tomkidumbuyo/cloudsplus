@@ -1,0 +1,226 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'npm',
+1 verbose cli   'install',
+1 verbose cli   'djng.url',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.4
+4 verbose install initial load of C:\python\www\cloudsplus\package.json
+5 warn package.json tom@1.0.0 No repository field.
+6 warn package.json tom@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from C:\python\www\cloudsplus\node_modules\angular\package.json
+8 verbose readDependencies loading dependencies from C:\python\www\cloudsplus\package.json
+9 silly cache add args [ 'npm', null ]
+10 verbose cache add spec npm
+11 silly cache add args [ 'install', null ]
+12 verbose cache add spec install
+13 silly cache add args [ 'djng.url', null ]
+14 verbose cache add spec djng.url
+15 silly cache add parsed spec Result {
+15 silly cache add   raw: 'npm',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'npm',
+15 silly cache add   rawSpec: '',
+15 silly cache add   spec: 'latest',
+15 silly cache add   type: 'tag' }
+16 silly addNamed npm@latest
+17 verbose addNamed "latest" is being treated as a dist-tag for npm
+18 info addNameTag [ 'npm', 'latest' ]
+19 silly mapToRegistry name npm
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry data Result {
+22 silly mapToRegistry   raw: 'npm',
+22 silly mapToRegistry   scope: null,
+22 silly mapToRegistry   name: 'npm',
+22 silly mapToRegistry   rawSpec: '',
+22 silly mapToRegistry   spec: 'latest',
+22 silly mapToRegistry   type: 'tag' }
+23 silly mapToRegistry uri https://registry.npmjs.org/npm
+24 verbose addNameTag registry:https://registry.npmjs.org/npm not in flight; fetching
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: 'install',
+25 silly cache add   scope: null,
+25 silly cache add   name: 'install',
+25 silly cache add   rawSpec: '',
+25 silly cache add   spec: 'latest',
+25 silly cache add   type: 'tag' }
+26 silly addNamed install@latest
+27 verbose addNamed "latest" is being treated as a dist-tag for install
+28 info addNameTag [ 'install', 'latest' ]
+29 silly mapToRegistry name install
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry data Result {
+32 silly mapToRegistry   raw: 'install',
+32 silly mapToRegistry   scope: null,
+32 silly mapToRegistry   name: 'install',
+32 silly mapToRegistry   rawSpec: '',
+32 silly mapToRegistry   spec: 'latest',
+32 silly mapToRegistry   type: 'tag' }
+33 silly mapToRegistry uri https://registry.npmjs.org/install
+34 verbose addNameTag registry:https://registry.npmjs.org/install not in flight; fetching
+35 silly cache add parsed spec Result {
+35 silly cache add   raw: 'djng.url',
+35 silly cache add   scope: null,
+35 silly cache add   name: 'djng.url',
+35 silly cache add   rawSpec: '',
+35 silly cache add   spec: 'latest',
+35 silly cache add   type: 'tag' }
+36 silly addNamed djng.url@latest
+37 verbose addNamed "latest" is being treated as a dist-tag for djng.url
+38 info addNameTag [ 'djng.url', 'latest' ]
+39 silly mapToRegistry name djng.url
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry data Result {
+42 silly mapToRegistry   raw: 'djng.url',
+42 silly mapToRegistry   scope: null,
+42 silly mapToRegistry   name: 'djng.url',
+42 silly mapToRegistry   rawSpec: '',
+42 silly mapToRegistry   spec: 'latest',
+42 silly mapToRegistry   type: 'tag' }
+43 silly mapToRegistry uri https://registry.npmjs.org/djng.url
+44 verbose addNameTag registry:https://registry.npmjs.org/djng.url not in flight; fetching
+45 verbose request uri https://registry.npmjs.org/djng.url
+46 verbose request no auth needed
+47 info attempt registry request try #1 at 10:34:42 PM
+48 verbose request id 8ca7bef4ef84fe73
+49 http request GET https://registry.npmjs.org/djng.url
+50 verbose request uri https://registry.npmjs.org/install
+51 verbose request no auth needed
+52 info attempt registry request try #1 at 10:34:42 PM
+53 verbose etag "5ab4630b-13020"
+54 verbose lastModified Fri, 23 Mar 2018 2:14:35 GMT
+55 http request GET https://registry.npmjs.org/install
+56 verbose request uri https://registry.npmjs.org/npm
+57 verbose request no auth needed
+58 info attempt registry request try #1 at 10:34:42 PM
+59 verbose etag "5adac415-6fae20"
+60 verbose lastModified Sat, 21 Apr 2018 4:54:45 GMT
+61 http request GET https://registry.npmjs.org/npm
+62 http 304 https://registry.npmjs.org/install
+63 verbose headers { date: 'Sun, 22 Apr 2018 19:43:52 GMT',
+63 verbose headers   via: '1.1 varnish',
+63 verbose headers   'cache-control': 'max-age=300',
+63 verbose headers   etag: '"5ab4630b-13020"',
+63 verbose headers   age: '12933',
+63 verbose headers   connection: 'keep-alive',
+63 verbose headers   'x-served-by': 'cache-hhn1529-HHN',
+63 verbose headers   'x-cache': 'HIT',
+63 verbose headers   'x-cache-hits': '1',
+63 verbose headers   'x-timer': 'S1524426233.962777,VS0,VE0',
+63 verbose headers   vary: 'Accept-Encoding, Accept' }
+64 silly get cb [ 304,
+64 silly get   { date: 'Sun, 22 Apr 2018 19:43:52 GMT',
+64 silly get     via: '1.1 varnish',
+64 silly get     'cache-control': 'max-age=300',
+64 silly get     etag: '"5ab4630b-13020"',
+64 silly get     age: '12933',
+64 silly get     connection: 'keep-alive',
+64 silly get     'x-served-by': 'cache-hhn1529-HHN',
+64 silly get     'x-cache': 'HIT',
+64 silly get     'x-cache-hits': '1',
+64 silly get     'x-timer': 'S1524426233.962777,VS0,VE0',
+64 silly get     vary: 'Accept-Encoding, Accept' } ]
+65 verbose etag https://registry.npmjs.org/install from cache
+66 verbose get saving install to C:\Users\ua\AppData\Roaming\npm-cache\registry.npmjs.org\install\.cache.json
+67 verbose correctMkdir C:\Users\ua\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+68 http 304 https://registry.npmjs.org/npm
+69 verbose headers { date: 'Sun, 22 Apr 2018 19:43:52 GMT',
+69 verbose headers   via: '1.1 varnish',
+69 verbose headers   'cache-control': 'max-age=300',
+69 verbose headers   etag: '"5adac415-6fae20"',
+69 verbose headers   age: '9765',
+69 verbose headers   connection: 'keep-alive',
+69 verbose headers   'x-served-by': 'cache-hhn1537-HHN',
+69 verbose headers   'x-cache': 'HIT',
+69 verbose headers   'x-cache-hits': '3',
+69 verbose headers   'x-timer': 'S1524426233.962258,VS0,VE0',
+69 verbose headers   vary: 'Accept-Encoding, Accept' }
+70 silly get cb [ 304,
+70 silly get   { date: 'Sun, 22 Apr 2018 19:43:52 GMT',
+70 silly get     via: '1.1 varnish',
+70 silly get     'cache-control': 'max-age=300',
+70 silly get     etag: '"5adac415-6fae20"',
+70 silly get     age: '9765',
+70 silly get     connection: 'keep-alive',
+70 silly get     'x-served-by': 'cache-hhn1537-HHN',
+70 silly get     'x-cache': 'HIT',
+70 silly get     'x-cache-hits': '3',
+70 silly get     'x-timer': 'S1524426233.962258,VS0,VE0',
+70 silly get     vary: 'Accept-Encoding, Accept' } ]
+71 verbose etag https://registry.npmjs.org/npm from cache
+72 verbose get saving npm to C:\Users\ua\AppData\Roaming\npm-cache\registry.npmjs.org\npm\.cache.json
+73 verbose correctMkdir C:\Users\ua\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+74 silly addNameTag next cb for install with tag latest
+75 silly addNamed install@0.11.0
+76 verbose addNamed "0.11.0" is a plain semver version for install
+77 silly addNameTag next cb for npm with tag latest
+78 silly addNamed npm@5.8.0
+79 verbose addNamed "5.8.0" is a plain semver version for npm
+80 silly cache afterAdd install@0.11.0
+81 verbose afterAdd C:\Users\ua\AppData\Roaming\npm-cache\install\0.11.0\package\package.json not in flight; writing
+82 verbose correctMkdir C:\Users\ua\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+83 silly cache afterAdd npm@5.8.0
+84 verbose afterAdd C:\Users\ua\AppData\Roaming\npm-cache\npm\5.8.0\package\package.json not in flight; writing
+85 verbose correctMkdir C:\Users\ua\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+86 verbose afterAdd C:\Users\ua\AppData\Roaming\npm-cache\install\0.11.0\package\package.json written
+87 verbose afterAdd C:\Users\ua\AppData\Roaming\npm-cache\npm\5.8.0\package\package.json written
+88 http 404 https://registry.npmjs.org/djng.url
+89 verbose headers { 'content-type': 'application/json',
+89 verbose headers   'cache-control': 'max-age=0',
+89 verbose headers   'content-length': '2',
+89 verbose headers   'accept-ranges': 'bytes',
+89 verbose headers   date: 'Sun, 22 Apr 2018 19:43:54 GMT',
+89 verbose headers   via: '1.1 varnish',
+89 verbose headers   connection: 'keep-alive',
+89 verbose headers   'x-served-by': 'cache-hhn1528-HHN',
+89 verbose headers   'x-cache': 'MISS',
+89 verbose headers   'x-cache-hits': '0',
+89 verbose headers   'x-timer': 'S1524426233.962361,VS0,VE1991',
+89 verbose headers   vary: 'Accept-Encoding' }
+90 silly get cb [ 404,
+90 silly get   { 'content-type': 'application/json',
+90 silly get     'cache-control': 'max-age=0',
+90 silly get     'content-length': '2',
+90 silly get     'accept-ranges': 'bytes',
+90 silly get     date: 'Sun, 22 Apr 2018 19:43:54 GMT',
+90 silly get     via: '1.1 varnish',
+90 silly get     connection: 'keep-alive',
+90 silly get     'x-served-by': 'cache-hhn1528-HHN',
+90 silly get     'x-cache': 'MISS',
+90 silly get     'x-cache-hits': '0',
+90 silly get     'x-timer': 'S1524426233.962361,VS0,VE1991',
+90 silly get     vary: 'Accept-Encoding' } ]
+91 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/djng.url
+91 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+91 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+91 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+91 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:199:22)
+91 verbose stack     at emitTwo (events.js:87:13)
+91 verbose stack     at Request.emit (events.js:172:7)
+91 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1036:10)
+91 verbose stack     at emitOne (events.js:82:20)
+91 verbose stack     at Request.emit (events.js:169:7)
+91 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:963:12)
+92 verbose statusCode 404
+93 verbose pkgid djng.url
+94 verbose cwd C:\python\www\cloudsplus
+95 error Windows_NT 10.0.16299
+96 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "npm" "install" "djng.url" "--save"
+97 error node v4.4.4
+98 error npm  v2.15.1
+99 error code E404
+100 error 404 Registry returned 404 for GET on https://registry.npmjs.org/djng.url
+100 error 404
+100 error 404 'djng.url' is not in the npm registry.
+100 error 404 You should bug the author to publish it (or use the name yourself!)
+100 error 404 It was specified as a dependency of 'tom'
+100 error 404
+100 error 404 Note that you can also install from a
+100 error 404 tarball, folder, http url, or git url.
+101 verbose exit [ 1, true ]
